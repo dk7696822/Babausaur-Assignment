@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+  height: 90vh;
+}
+.pokemon {
+  margin: 10% auto;
+  background-color: rgba(211, 211, 211, 0.384);
+  border-radius: 20px;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 5px 5px 10px 5px lightgray;
+}
+.img-container {
+  border-radius: 100px;
+  padding: 15px 15px;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.name {
+  font-weight: bolder;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.number {
+  background-color: lightgrey;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.type {
+  font-size: 18px;
+}
